@@ -22,7 +22,7 @@
 
    <servlet-mapping>
       <servlet-name>statesCapitals</servlet-name>
-      <url-pattern>/statesCapitals</url-pattern>
+      <url-pattern>/</url-pattern>
    </servlet-mapping>
 
    <listener>
@@ -33,7 +33,7 @@
 
    <context-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>/WEB-INF/examples/springhttp/spring-http-config.xml</param-value>
+      <param-value>/WEB-INF/spring-http-config.xml</param-value>
    </context-param>
 
 </web-app>

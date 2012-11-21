@@ -1,4 +1,4 @@
-package org.amm.springremote;
+package org.amm.springremote.client;
 
 import org.amm.springremote.service.StateCapitalService;
 import org.springframework.context.ApplicationContext;
@@ -24,7 +24,7 @@ public class HttpClient
    {
       final ApplicationContext context =
          new ClassPathXmlApplicationContext(
-            "examples/springhttp/client/spring-http-client-config.xml");
+            "org/amm/springremote/client/spring-http-client-config.xml");
       final StateCapitalService stateCapitalService =
          (StateCapitalService) context.getBean("stateCapitalProxyService");
       printStateInfo(stateCapitalService, "Colorado");

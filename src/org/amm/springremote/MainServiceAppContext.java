@@ -1,5 +1,6 @@
 package org.amm.springremote;
 
+
 import org.amm.springremote.service.StateCapitalService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
