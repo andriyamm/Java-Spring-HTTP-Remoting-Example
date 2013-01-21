@@ -1,4 +1,6 @@
 massive-archer
 ====================
 
-test for spring remoting
+Simple Spring HTTP Remoting Example 
+
+Based on http://marxsoftware.blogspot.com/2008/07/simple-spring-http-remoting-example.html
